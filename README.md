@@ -46,5 +46,6 @@ The application uses H2 Database.  To populate the Developer table, you can use 
 
 Also, `load_names.rb` file is provided, that will load the database with the contents of `names.txt`
 
+If you deploy on tomcat add -Duser.language=NO in your tomcat launch configuration
 
 [![Build Status](https://travis-ci.org/sbilello/easyRest.svg?branch=master)](https://travis-ci.org/sbilello/easyRest)
