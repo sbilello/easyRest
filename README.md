@@ -45,3 +45,6 @@ The application uses H2 Database.  To populate the Developer table, you can use 
 `curl http://localhost:8080/easyRest/rest/developer -d "{\"name\":\"John Smith\"}" -H "Content-Type: application/json"`
 
 Also, `load_names.rb` file is provided, that will load the database with the contents of `names.txt`
+
+
+[![Build Status](https://travis-ci.org/sbilello/easyRest.svg?branch=master)](https://travis-ci.org/sbilello/easyRest)
