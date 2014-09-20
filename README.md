@@ -24,7 +24,7 @@ I applied the MVC Design Pattern.
 Spring Data Rest allows to me to write less backend code to handle sorting, pagination and to provide a RESTful service and HATEOS.
 I wanted to separate Bug and Story entities, but to display in a list ordered by creation date, it could be more easier using the same entity and adding a private attribute that specifies the  type: "Bug" or  "Story".
 The algorithm for project plan, it's easy, but I should filter on status for Story. It's possible to do that by adding a new query that allows filtering on status.
-I added a backend support for i18n, but I didn't manage on the front-end.
+I added a backend support for i18n.
 I handled some common exceptions and validations.
 I should improve error messages on AJAX call and clean the jsp from hard-coded values.
 The jsp code should be less redundant, and I should add the decorator design pattern. "Sitemesh" could be an example. 
