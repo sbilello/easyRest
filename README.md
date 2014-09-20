@@ -1,5 +1,7 @@
 # CRUD Application Test #
 
+[![Build Status](https://travis-ci.org/sbilello/easyRest.svg?branch=master)](https://travis-ci.org/sbilello/easyRest)
+
 ## Getting Started ##
 
 The application uses the latest open-source libraries and projects:
@@ -48,4 +50,3 @@ Also, `load_names.rb` file is provided, that will load the database with the con
 
 If you deploy on tomcat add -Duser.language=NO in your tomcat launch configuration
 
-[![Build Status](https://travis-ci.org/sbilello/easyRest.svg?branch=master)](https://travis-ci.org/sbilello/easyRest)
